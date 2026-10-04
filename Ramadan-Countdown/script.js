@@ -10,7 +10,7 @@ function createDigit(value, animate = false) {
 
 function updateCountdown() {
     const now = new Date();
-    const eventDate = new Date("2025-02-28T00:00:00");
+    const eventDate = new Date("2027-02-07T00:00:00");
     const diff = eventDate - now;
     
     if (diff <= 0) {
